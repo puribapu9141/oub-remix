@@ -20,10 +20,8 @@
 
 ## How To Host?
 
-The easiest way to deploy this great bot! is click on image below
-Make sure you have an account of heroku and follow all the steps required.
+Tap Below Image to Host Your Bot in Heroku. Remember You Must Need to Have Heroku Account. Thank You ❤️
 
-Deploy to Heroku:
 <p align="centre"><a href="https://heroku.com/deploy?template=https://github.com/puribapu9141/OUB-Remix/tree/master"> <img src="https://telegra.ph/file/6efe7d3e61b77bf18baf8.jpg" alt="Deploy to Heroku" /></a></p>
 
 ## Support
