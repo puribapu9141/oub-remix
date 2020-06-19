@@ -88,7 +88,7 @@ async def kang(args):
     if photo:
         splat = args.text.split()
         if not emojibypass:
-            emoji = "🤔"
+            emoji = "😃"
         pack = 1
         if len(splat) == 3:
             pack = splat[2]  # User sent both
@@ -244,8 +244,8 @@ async def kang(args):
                 # Ensure user doesn't get spamming notifications
                 await bot.send_read_acknowledge(conv.chat_id)
 
-        await args.edit(f"`kanged successfully!`\
-                        \nClick [here](t.me/addstickers/{packname})",
+        await args.edit(f"`अबे गधे तेरा स्टिकर मेंने चोरी किया क्या कर लेगा बे 🙄!`\
+                        \nदेख [यहां](t.me/addstickers/{packname})",
                         parse_mode='md')
 
 
@@ -353,7 +353,7 @@ CMD_HELP.update({
 \n\n`.kang` [emoji('s)]\
 \nUsage: Works just like .kang but uses the emoji('s) you picked.\
 \n\n`.kang` [number]\
-\nUsage: Kang's the sticker/image to the specified pack but uses 🤔 as emoji.\
+\nUsage: Kang's the sticker/image to the specified pack but uses 😃 as emoji.\
 \n\n`.kang` [emoji('s)] [number]\
 \nUsage: Kang's the sticker/image to the specified pack and uses the emoji('s) you picked.\
 \n\n`.stkrinfo`\
