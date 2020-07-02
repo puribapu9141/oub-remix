@@ -247,6 +247,8 @@ async def kang(args):
         await args.edit(f"`अबे गधे तेरा स्टिकर मेंने चोरी किया क्या कर लेगा बे 🙄!`\
                         \nदेख [यहां](t.me/addstickers/{packname})",
                         parse_mode='md')
+        await asyncio.sleep(7.5)                
+        await args.delete()
 
 
 async def resize_photo(photo):
